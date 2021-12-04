@@ -1,0 +1,87 @@
+.feature-video {
+  width: 100%;
+  object-fit: fill;
+}
+
+footer {
+  height: 80px;
+  background-color: #f8f8f8;
+  margin-top: 80px;
+  padding-top: 30px;
+
+  p {
+    color: #868B8E;
+  }
+}
+
+.contact {
+  color: #a406ff;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.contact:hover {
+  cursor: pointer;
+}
+
+.head {
+  color: #a406ff;
+}
+
+.header {
+  background-image: url('/assets/crowd.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.section-rule {
+  position: relative;
+  left: 0;
+  top: 0;
+  bottom: -17 px;
+  width: 48 px;
+  height: 1 px;
+  margin-top: 8 px;
+  margin-bottom: 8 px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #e81668;
+}
+
+.section-rule.section-rule--left-4 {
+  position: relative;
+  left: 0;
+  top: 12 px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.title {
+  color: #868B8E;
+}
+
+.sub-title {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #868B8E;
+}
+
+.main-content {
+  position: absolute;
+  margin-top: 200px;
+}
+
+.overlay {
+  z-index: 1;
+  position: absolute;
+  top: -290;
+
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  margin-top: -101px;
+}
