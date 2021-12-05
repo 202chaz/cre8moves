@@ -1,6 +1,6 @@
 <app-nav></app-nav>
 <main>
-  <video loop muted autoplay oncanplay="this.play()" onloadedmetadata="this.muted = true" class="video">
+  <video playsinline loop muted autoplay oncanplay="this.play()" onloadedmetadata="this.muted = true" class="video">
     <source src="https://cre8moves.nyc3.cdn.digitaloceanspaces.com/CRE8Moves.mp4" type="video/mp4">
   </video>
   <div class="position-relative overflow-hidden">
@@ -23,7 +23,7 @@
     <div class="row mt-4">
       <div class="col-12">
         <div class="section-rule section-rule--left-4"></div> <h4 class="fw-normal mt-5 title mb-5 ">Featured Work</h4>
-        <video controls="true" class="feature-video">
+        <video controls="true" class="feature-video" playsinline>
           <source src="https://cre8moves.nyc3.cdn.digitaloceanspaces.com/news_clip.mp4" type="video/mp4">
         </video>
         <p class="fw-bold mb-0 mt-3 head">CREATIVE SOLUTIONS 4 YOUTH LLC</p>
